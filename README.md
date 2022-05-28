@@ -1,2 +1,2 @@
 # Magic_Shop
-<a href="https://https://magic-shop-ji.netlify.app/">MagicShop</a>
+<a href="https://magic-shop-ji.netlify.app/">MagicShop</a>
