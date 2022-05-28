@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body p,
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+
+/* navbar */
+
+.header {
+  width: 100%;
+  background-color: rgb(35, 120, 248);
+}
+
+.header img {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 0;
+}
+
+.header h1 {
+  color: #fff;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.header input {
+  width: 45%;
+  margin-left: 135px;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+}
+
+.header input::placeholder {
+  font-size: 18.72px;
+}
+
+/* /navbar */
+
+/* /header */
+
+/* Section */
+
+.registerform {
+  width: 30%;
+  margin: 40px auto;
+  border: solid 2px #000;
+  border-radius: 5px;
+  box-shadow: 2px 3px 6px #555;
+  padding: 10px;
+}
+
+.registerform h2 {
+  padding: 15px;
+  color: #444;
+}
+
+.registerform input,
+button {
+  width: 93%;
+  padding: 15px 10px;
+  margin: 6px 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid #555;
+}
+
+.registerform input::placeholder,
+button {
+  font-size: 16px;
+}
+
+.registerform button:nth-child(6) {
+  background-color: rgb(35, 120, 248);
+  color: #fff;
+  border: 1px solid rgb(35, 120, 248);
+}
+
+.registerform button:nth-child(6):hover {
+  cursor: pointer;
+  background-color: rgb(0, 84, 211);
+  border-color: rgb(0, 84, 211);
+}
+
+.registerform p {
+  margin: 20px;
+  text-align: center;
+}
+
+.registerform button:nth-child(8) {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.registerform button:nth-child(8):hover {
+  cursor: pointer;
+  background-color: #222;
+}
+
+/* /Section */
+
+/* Footer */
+
+.footer {
+  background-color: #444;
+}
+
+.footer img:nth-child(1) {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.footer h2 {
+  color: #fff;
+  display: inline-block;
+  margin: 20px 40px 25px 0;
+  font-size: 24px;
+}
+
+.footer ul {
+  display: inline-block;
+  margin-left: 95px;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.footer ul li a:hover {
+  color: rgb(35, 120, 248);
+}
+
+.footer_list p {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18.72px;
+  color: #555;
+}
+
+.footer_list span {
+  color: rgb(35, 120, 248);
+}
+
+.footer_list img {
+  margin: -40px 0 20px 810px;
+  display: inline-block;
+}
+/* /Footer */

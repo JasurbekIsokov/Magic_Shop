@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(240, 238, 238);
+}
+
+body p,
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+
+/* navbar */
+
+.header {
+  width: 100%;
+  background-color: rgb(35, 120, 248);
+}
+
+.header img {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 0;
+}
+
+.header h1 {
+  color: #fff;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.header input {
+  width: 45%;
+  margin-left: 135px;
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+}
+
+.header input::placeholder {
+  font-size: 18.72px;
+}
+
+/* /navbar */
+
+/* /header */
+
+/* Section */
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.contact {
+  width: 32%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 2px 3px 6px #555;
+  box-sizing: border-box;
+}
+
+.contact .address {
+  width: 25%;
+  margin: 10px auto;
+  background-color: rgb(35, 120, 248);
+  border-radius: 100%;
+}
+
+.contact .address img {
+  width: 60%;
+  margin: 12px auto;
+  border-radius: 100%;
+  background-color: rgb(35, 120, 248);
+}
+
+.contact h3,
+p {
+  margin: 10px;
+  color: #333;
+}
+
+.message_location {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.message {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.message p {
+  line-height: 24px;
+  margin: 10px 10px 10px 0;
+}
+
+.message form input {
+  width: 48%;
+  margin: 5px 5px 5px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-shadow: 2px 3px 6px #555;
+}
+
+.message form textarea {
+  width: 98%;
+  height: 140px;
+  margin: 5px 5px 15px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 6px #555;
+  border: 1px solid #000;
+  border-radius: 5px;
+  resize: none;
+}
+
+.message form button {
+  padding: 10px;
+  border: 1px solid rgb(35, 120, 248);
+  border-radius: 5px;
+  background: rgb(35, 120, 248);
+  color: #fff;
+}
+
+.message form button:hover {
+  cursor: pointer;
+  background: rgb(0, 101, 253);
+}
+
+.location {
+  width: 50%;
+}
+
+.location img {
+  width: 100%;
+}
+
+.newsletters {
+  background-color: rgb(35, 120, 248);
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newlet {
+  width: 30%;
+  padding: 20px 0;
+}
+
+.newlet h2 {
+  font-size: 32px;
+  color: #fff;
+}
+
+.newlet p {
+  color: #fff;
+  margin-left: 0;
+}
+
+.newlet .enter {
+  padding: 10px 140px 10px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  color: #555;
+}
+
+.newlet button {
+  padding: 7px 15px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 10px 0 0 230px;
+  display: relative;
+}
+
+.newlet button:hover {
+  cursor: pointer;
+  color: rgb(35, 120, 248);
+}
+
+/* /Section */
+
+/* Footer */
+
+.footer {
+  background-color: #444;
+}
+
+.footer img:nth-child(1) {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.footer h2 {
+  color: #fff;
+  display: inline-block;
+  margin: 20px 40px 25px 0;
+  font-size: 24px;
+}
+
+.footer ul {
+  display: inline-block;
+  margin-left: 95px;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.footer ul li a:hover {
+  color: rgb(35, 120, 248);
+}
+
+.footer_list p {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18.72px;
+  color: #555;
+}
+
+.footer_list span {
+  color: rgb(35, 120, 248);
+}
+
+.footer_list img {
+  margin: -40px 0 20px 810px;
+  display: inline-block;
+}
+/* /Footer */
